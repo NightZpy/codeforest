@@ -4,7 +4,12 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
-		"laravel/framework": "4.1.*"
+		"laravel/framework": "4.1.*",
+		"way/generators": "dev-master",
+        "cartalyst/sentry": "2.0.*",
+        "dflydev/markdown": "v1.0.2",
+        "imagine/Imagine": "v0.4.1",
+        "react/socket": "0.3.*@dev"
 	},
 	"autoload": {
 		"classmap": [
@@ -35,3 +40,4 @@
 	},
 	"minimum-stability": "dev"
 }
+
